@@ -1,0 +1,19 @@
+{
+  "name": "mgp33-hoofdstuk08-typescript",
+  "version": "0.0.8",
+  "description": "Verkennen van TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm ci & concurrently \"cd Client & ng serve\" \"cd Server & npm run start\""
+  },
+  "keywords": [
+    "UCLL",
+    "FEG",
+    "TypeScript"
+  ],
+  "author": "David Urting",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
