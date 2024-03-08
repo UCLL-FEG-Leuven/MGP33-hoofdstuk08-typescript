@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Car } from './car';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ts-verkenning';
+  cars: Array<Car> = [];
+
+  constructor() {
+    this.cars.push(new Car('VW', 'blue', 180));
+    this.cars.push(new Car('Renault', 'white', 150));
+  }
 }
