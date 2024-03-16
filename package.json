@@ -1,10 +1,10 @@
 {
-  "name": "mgp33-hoofdstuk08-typescript",
+  "name": "mgp33-hoofdstuk08-typescript-omzetting-ts-naar-js",
   "version": "0.0.8",
   "description": "Verkennen van TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "npm ci & concurrently \"cd Client & ng serve\" \"cd Server & npm run start\""
+    "start": "echo 'Gebruik LiveServer voor deze demo'"
   },
   "keywords": [
     "UCLL",
@@ -13,7 +13,7 @@
   ],
   "author": "David Urting",
   "license": "UNLICENSED",
-  "dependencies": {
-    "concurrently": "^8.2.2"
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }
