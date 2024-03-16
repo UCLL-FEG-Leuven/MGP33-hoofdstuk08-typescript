@@ -4,7 +4,7 @@
   "description": "Verkennen van TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "echo 'Gebruik LiveServer voor deze demo'"
+    "start": "npx tsc --watch"
   },
   "keywords": [
     "UCLL",
