@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ts-verkenning' title`, () => {
+  it(`should have the 'omzetting-ts-naar-js-in-angular' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ts-verkenning');
+    expect(app.title).toEqual('omzetting-ts-naar-js-in-angular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ts-verkenning');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, omzetting-ts-naar-js-in-angular');
   });
 });

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Car } from './car';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +9,5 @@ import { Car } from './car';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  cars: Array<Car> = [];
-
-  constructor() {
-    this.cars.push(new Car('VW', 'blue', 180));
-    this.cars.push(new Car('Renault', 'white', 150));
-  }
+  title = 'omzetting-ts-naar-js-in-angular';
 }

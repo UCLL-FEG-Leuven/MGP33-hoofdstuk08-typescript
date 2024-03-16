@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ts-verkenning": {
+    "omzetting-ts-naar-js-in-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "../Server/public",
+            "outputPath": "dist/omzetting-ts-naar-js-in-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ts-verkenning:build:production"
+              "buildTarget": "omzetting-ts-naar-js-in-angular:build:production"
             },
             "development": {
-              "buildTarget": "ts-verkenning:build:development"
+              "buildTarget": "omzetting-ts-naar-js-in-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ts-verkenning:build"
+            "buildTarget": "omzetting-ts-naar-js-in-angular:build"
           }
         },
         "test": {
