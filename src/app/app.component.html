@@ -1,0 +1,8 @@
+<main>
+  <ul>
+  @for (car of cars; track car.id) {
+    <li>{{ car.brand }}</li>
+  }
+  </ul>
+</main>
+<router-outlet />
