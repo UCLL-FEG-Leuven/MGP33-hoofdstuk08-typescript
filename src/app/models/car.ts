@@ -28,4 +28,8 @@ export class Car implements ICar {
     get maxSpeed(): number {
         return this.#maxSpeed;
     }
+
+    toString() {
+        return `De ${this.#brand} met ID ${this.#id} is ${this.#color} en heeft een maximale snelheid van ${this.#maxSpeed} km/u.`;
+    }
 }

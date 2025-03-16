@@ -1,7 +1,8 @@
 <main>
   <ul>
   @for (car of cars; track car.id) {
-    <li>{{ car.brand }}</li>
+    <!-- Bemerk dat .toString() impliciet wordt aangeroepen -->
+    <li>{{ car }}</li>
   }
   </ul>
 </main>
